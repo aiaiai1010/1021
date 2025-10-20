@@ -102,7 +102,7 @@
     function startBeepLoop() {
       if (beepInterval) return;
       playBeep();
-      beepInterval = setInterval(playBeep, 8000); // 8秒ごとにビープ音
+      beepInterval = setInterval(playBeep, 1000); // 8秒ごとにビープ音
     }
     function stopBeepLoop() {
       if (beepInterval) { clearInterval(beepInterval); beepInterval=null; }
